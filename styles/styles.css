@@ -1,0 +1,144 @@
+* {
+padding:0;
+margin:0;
+}
+
+body
+{
+background-image: url(news_image.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+h1.trending{
+	margin:0 auto;
+	border-bottom: 5px solid;
+	text-align:center;
+	font-weight:strong;
+	font size:18;
+	color:white;
+	
+}
+h1 div.animation {
+    width: 200px;
+    height: 100px;
+    -webkit-box-shadow:
+0 2px 4px 0 rgba(72, 72, 72, 0.83),
+0 10px 15px 0 rgba(126, 126, 126, 0.12),
+0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
+0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+-moz-box-shadow:
+0 2px 4px 0 rgba(72, 72, 72, 0.83),
+0 10px 15px 0 rgba(126, 126, 126, 0.12),
+0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
+0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+box-shadow:
+0 2px 4px 0 rgba(72, 72, 72, 0.83),
+0 10px 15px 0 rgba(126, 126, 126, 0.12),
+0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
+0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+ 
+    position: relative;
+  animation: mymove 17s linear infinite;
+}
+
+h1 div.animation:hover {
+    animation-play-state: paused
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1690px;}
+}
+
+form.searchbox{
+background-color: #fffbf8;
+padding:13px;
+width:335px;
+margin: 100px auto;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+border-radius:6px;
+-webkit-box-shadow:
+0 2px 4px 0 rgba(72, 72, 72, 0.83),
+0 10px 15px 0 rgba(126, 126, 126, 0.12),
+0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
+0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+-moz-box-shadow:
+0 2px 4px 0 rgba(72, 72, 72, 0.83),
+0 10px 15px 0 rgba(126, 126, 126, 0.12),
+0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
+0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+box-shadow:
+0 2px 4px 0 rgba(72, 72, 72, 0.83),
+0 10px 15px 0 rgba(126, 126, 126, 0.12),
+0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
+0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+}
+
+
+input.search_1{
+width:250px;
+height:30px;
+padding-left:15px;
+border-radius:6px;
+border:none;
+color:#0F0D0D;
+font-weight:500;
+background-color:#E2EFF7;
+}
+
+button.button{
+width:35px;
+height:30px;
+
+background-color:transparent;
+
+cursor:pointer;
+}
+
+input.search_1:focus{
+outline:0;
+}
+
+
+
+
+
+.signin
+{
+	float:right;
+	position: relative;
+	left:-1in;
+	
+}
+
+
+.form_align
+{
+	text-align:center;
+	padding: 25px;
+    	border: 25px double green;
+    	margin: 25px;
+}
+.notifications
+{
+	color:red;
+	font-weight:strong;
+	font size:18;
+
+}
+.required
+{
+	color:red;
+	
+}
